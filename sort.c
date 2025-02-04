@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h> // For qsort
+#include <stdlib.h>
 
-// Comparison function for ascending order
 int compare(const void* a, const void* b) {
     return (*(int*)a - *(int*)b);
 }
@@ -17,9 +16,9 @@ int main() {
     // Sort the array in ascending order
     qsort(arr, n, sizeof(int), compare);
 
-    // Print the sorted array
     for (int i = 0; i < n; i++)
         printf("%d ", arr[i]);
+    printf("This is Karthik");
 
     return 0;
 }
