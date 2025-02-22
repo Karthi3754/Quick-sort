@@ -13,4 +13,4 @@ This repository contains a simple C program that reads an array of integers, sor
 - **Time Complexity:** `O(n log n)` (due to QuickSort).  
 - **Space Complexity:** `O(log n)` (recursion overhead of QuickSort).
 
-- Happy Coding 🎯💡
+Happy Coding 🎯💡
